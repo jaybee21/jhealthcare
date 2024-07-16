@@ -53,8 +53,9 @@ export const PatientForm = () => {
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="flex-1 space-y-6">
         <section className="mb-12 space-y-4">
-          <h1 className="header">Hi there 👋</h1>
-          <p className="text-dark-700">Get started with appointments.</p>
+          <h1 className="header">Hi! 👋</h1>
+          <p className="text-dark-700">Please enter your details to start with careplus</p>
+          <p className="text-dark-700">To see the admin dashboard click admin below the form and enter 111111</p>
         </section>
 
         <CustomFormField
